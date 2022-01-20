@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="qcm.js"></script>
+	<link rel='stylesheet' type='text/css' href='css/css.css'/>
+		<title>QCM</title>
+
+	</head>
+	<body>
+		<header>
+	 	<h1>QCM en économie et droit</h1>
+	 	</header>
+	 	<form name="qcm" onsubmit="Answers()">
+	 		<div>
+	 	<p>1.En quelle année à été créer la CNIL?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="qt1" onclick="Q0='a'"><label for="quest">2004</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt1" onclick="Q0='b'"><label for="quest">1976</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt1" onclick="Q0='c'"><label for="quest">1978</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt1" onclick="Q0='d'"><label for="quest">1983</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>2.Que veut dire DCP?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="qt2" onclick="Q1='a'"><label for="quest">Data center protector</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt2" onclick="Q1='b'"><label for="quest">Données à caractère personnelles</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt2" onclick="Q1='c'"><label for="quest">Directeur Central Principal</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt2" onclick="Q1='d'"><label for="quest">Dérivées concentrées protègées</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>3.En quelle année à été créer le RGPD?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="qt3" onclick="Q2='a'"><label for="quest">2004</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt3"onclick="Q2='b'"><label for="quest">1999</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt3" onclick="Q2='c'"><label for="quest">2018</label></li>
+	  	<li><input type="checkbox" id="scales" name="qt3" onclick="Q2='d'"><label for="quest">1997</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>4.Quels agents économiques a pour fonction principale la consommation ?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q3='a'"><label for="quest">Ménages</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q3='b'"><label for="quest">Entreprise</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q3='c'"><label for="quest">Administration publique</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q3='d'"><label for="quest">Reste du monde</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>5.Quelle est la fonction principale des entreprises?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q4='a'"><label for="quest">Consommer</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q4='b'"><label for="quest">Epargner</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q4='c'"><label for="quest">Sortir</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q4='d'"><label for="quest">Produire des BES</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>6.Qu'est-ce qu'un ménage?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q5='a'"><label for="quest">Une personne</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q5='b'"><label for="quest">Un travail</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q5='c'"><label for="quest">Un inidividus ou plusieurs individus qui habitent généralement ensemble</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q5='d'"><label for="quest">Une activité quotidienne</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>7.Le RGPD protège quoi?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q6='a'"><label for="quest">les voitures</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q6='b'"><label for="quest">les données</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q6='c'"><label for="quest">les personnes</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q6='d'"><label for="quest">la loi</label></li></ul>
+		</div></br>
+
+		<div>
+	 	<p>8.En quelle année à été créer la loi de l'informatique et des libertés?</p>
+	 	<ul>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q7='a'"><label for="quest">2004</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q7='b'"><label for="quest">1976</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q7='c'"><label for="quest">1978</label></li>
+	  	<li><input type="checkbox" id="scales" name="scales" onclick="Q7='d'"><label for="quest">1983</label></li></ul>
+		</div></br>
+
+	<center><input type="button" value="Correction" onclick="Mark()">
+		<input type="reset" value="Effacer">
+		<a href="corrigé.html"><input type="button" value="Corrigé"></a>
+	</center>
+</form>
+	 
+	</body>
+</html>
