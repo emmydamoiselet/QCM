@@ -1,0 +1,20 @@
+li{
+	list-style: none;
+}
+body{
+	background:  linear-gradient(20deg, #D6D8B5 ,#DCE46D);
+}
+p{
+	text-decoration: underline;
+	font-size: 18px;
+}
+h1{
+	text-decoration: underline;
+	text-align: center;
+}
+header{
+	border-bottom: 1px solid black;
+}
+span{
+	color: green;
+}
